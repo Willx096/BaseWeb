@@ -1,0 +1,38 @@
+ @import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p, h1, h3, a{
+  font-family: 'Redressed', cursive;
+  font-size: 1.5em;
+} 
+
+  body{
+    background-color: green;
+    
+  }
+
+  header{
+    background-color: pink;
+    
+    
+  }
+  main{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+
+  aside{
+    background-color: yellow;
+    display:flex;
+    align-content: flex-end;
+  }
+
+  footer{
+    background-color: brown;
+  }
